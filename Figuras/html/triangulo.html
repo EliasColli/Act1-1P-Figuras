@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Área y Perímetro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Área y Perímetro</h1>
+
+        <!-- Triángulo -->
+        <div class="figura">
+            <h2>Triángulo</h2>
+            <img src="/img/gratis-png-triangulo-rojo-triangulo-rectangulo-triangulo-rojo-thumbnail.png" alt="Triángulo" class="imagen-figura">
+            <label for="triBase">Base:</label>
+            <input type="number" id="triBase" step="any">
+            <label for="triAltura">Altura:</label>
+            <input type="number" id="triAltura" step="any">
+            <label for="triLado">Lado:</label>
+            <input type="number" id="triLado" step="any">
+            <button onclick="calcularTriangulo()">Calcular</button>
+            <div id="trianguloResultado"></div>
+        </div>
+
+        <div class="boton-regreso">
+            <a href="index.html" class="btn">Regresar al Inicio</a>
+        </div>
+
+    <script src="/js/codigo.js"></script>
+    </div>
+</body>
+</html>

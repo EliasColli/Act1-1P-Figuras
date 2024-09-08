@@ -1,0 +1,62 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contenedor de figuras (fila de 4) */
+.figuras-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilo de cada figura */
+.figura {
+    text-align: center;
+    margin: 20px;
+}
+
+.figura img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.figura h3 {
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+/* Efecto hover para las imágenes */
+.figura img:hover {
+    transform: scale(1.1);
+    border-color: #2980b9;
+}
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .figura img {
+        width: 120px;
+        height: 120px;
+    }
+}

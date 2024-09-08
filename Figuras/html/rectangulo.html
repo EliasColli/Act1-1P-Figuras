@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Área y Perímetro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Área y Perímetro</h1>
+
+        <!-- Rectángulo -->
+        <div class="figura">
+            <h2>Rectángulo</h2>
+            <img src="/img/png-clipart-rectangle-product-red-button-miscellaneous-angle-thumbnail.png" alt="Rectángulo" class="imagen-figura">
+            <label for="rectBase">Base:</label>
+            <input type="number" id="rectBase" step="any">
+            <label for="rectAltura">Altura:</label>
+            <input type="number" id="rectAltura" step="any">
+            <button onclick="calcularRectangulo()">Calcular</button>
+            <div id="rectanguloResultado"></div>
+        </div>
+
+        <div class="boton-regreso">
+            <a href="index.html" class="btn">Regresar al Inicio</a>
+        </div>
+
+    <script src="/js/codigo.js"></script>
+    </div>
+</body>
+</html>
